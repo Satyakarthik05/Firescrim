@@ -1,20 +1,12 @@
 {
-  "version": 2,
-  "routes": [
+  "routes":[
+    {
+      "src":"/",
+      "dest":"/"
+    },
     {
       "src": "/login",
-      "methods": ["GET", "POST"],
-      "dest": "https://firescrim-backend.vercel.app/login",
-      "headers": {
-        "Access-Control-Allow-Origin": "https://firescrim.vercel.app"
-      }
+      "dest": "/"
     }
   ]
-  {
-  "version": 2,
-  "rewrites": [
-    { "source": "/login", "destination": "/index.html" }
-  ]
-}
-
 }

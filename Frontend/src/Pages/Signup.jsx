@@ -48,7 +48,7 @@ const Signup = () => {
         </form>
         <div className="sec">
             <p>Already a member ?</p>
-            <Link to="/login">Login</Link>
+            <Link to="https://firescrim.vercel.app/login">Login</Link>
         </div>
     </div>
     </div>

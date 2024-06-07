@@ -13,7 +13,7 @@ import { FireModels } from "../Server/models/user.js";
 const app =express()
 app.use(express.json())
 app.use(cors({
-    origin:["http://localhost:5174"],
+    origin:["https://firescrim.vercel.app"],
     methods:["POST","GET"],
     credentials:true
 }))

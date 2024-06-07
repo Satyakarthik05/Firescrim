@@ -14,7 +14,6 @@ const app =express()
 app.use(express.json())
 app.use(cors({
     origin:["https://firescrim.vercel.app"],
-    methods:["POST","GET"],
     credentials:true
 }))
 app.use(cookieParser())

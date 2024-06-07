@@ -10,4 +10,11 @@
       }
     }
   ]
+  {
+  "version": 2,
+  "rewrites": [
+    { "source": "/login", "destination": "/index.html" }
+  ]
+}
+
 }
